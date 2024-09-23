@@ -38,11 +38,7 @@
     </script>
 @endif
 
-@if(env('APP_SYNC') || config('app.demo_mode'))
-    <a target="_blank" href="https://aorasoft.com/" class="float_button"> <i class="ti-shopping-cart-full"></i>
-        <h3>Purchase MaxiLMS</h3>
-    </a>
-@endif
+
 @livewireScripts
 <script src="{{ asset('public/js/alpine.min.js') }}{{assetVersion()}}"></script>
 
