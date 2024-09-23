@@ -2,6 +2,7 @@
 /public/hot
 /public/storage
 /public/certificate
+/resources/views/page_components
 /vendor
 .env
 .env.backup
